@@ -1,6 +1,5 @@
 import sys
 import re
-# import pandas as pd
 from datetime import datetime as dt
 
 # use this to find out more https://regex101.com/
@@ -31,7 +30,6 @@ numbers_only.write(f'Total Number Of Matches: {total_matches}\n\n')
 # write each find into .txt file
 for match in all_matches:
     total_plot_logs.write(match[0] + '\n')
-    # number = float(match[1])
     numbers_only.write(match[1] + '\n')
 
 # close files when everything is written

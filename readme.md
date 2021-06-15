@@ -36,4 +36,3 @@ $ cat test.txt | python3 stdin.py
 
 ### Pre-Requisites
 [python3](https://www.python.org/downloads/)
-[python pandas](https://pypi.org/project/pandas/) -- run through pip
